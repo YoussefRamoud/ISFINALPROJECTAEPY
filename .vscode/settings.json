@@ -1,9 +1,9 @@
-{
-    // Enable/disable built-in PHP validation.
-    "php.validate.enable": true,
-     // Points to the PHP executable 
-     "php.validate.run" : "onSave",
+{// Enable/disable built-in PHP validation.
+"php.validate.enable": true,
 
-    // Points to the PHP executable 
-    "php.validate.executablePath": "E:GUC/ISFINALPROJECTAEPY"
+// Points to the PHP executable.
+"php.validate.executablePath": null,
+
+// Whether the linter is run on save or on type.
+"php.validate.run": "onSave"
 }
