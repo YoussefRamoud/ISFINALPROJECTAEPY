@@ -15,7 +15,6 @@
 <html>
 <table style="width:100%">
   <tr>
-    <th>ID</th>
     <th>Name</th> 
     <th>Grade</th>
     <th>Action</th> 

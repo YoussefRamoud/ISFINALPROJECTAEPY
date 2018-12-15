@@ -19,7 +19,7 @@
 </head>
 
 <div class="header">
-	<h1>HomePage</h1>
+	<h1>Homepage</h1>
 </div>
 <div class="content">
   	<!-- notification message -->
