@@ -15,12 +15,11 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="hstyle.css">
 </head>
-<body background="monsters.jpg">
 
 <div class="header">
-	<h2>Welcome to Monsters University</h2>
+	<h1>HomePage</h1>
 </div>
 <div class="content">
   	<!-- notification message -->
@@ -37,10 +36,40 @@
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
-    	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a href="Homepage.php?logout='1'" style="color: red;">logout</a> </p>
+		<h3>Welcome <strong><?php echo $_SESSION['username']; ?></strong></h3>
+		<p> <a href="Homepage.php?logout='1'" style="color: darkblue;">logout</a> </p>
+		<button onClick="window.location='Grades.php';" value="Check Grades">Check Grades </button> 
     <?php endif ?>
 </div>
-		
-</body>
+
+<style>
+body {
+ background-image: url("images/monsters.jpg");
+ background-color: #cccccc;
+ height: 380px; 
+ background-position: center; 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	position:absolute;
+    top:100px;    
+    right:290px;
+  }
+p{
+	position:absolute;
+    top:-220px;    
+	right:-260px;
+	font-size: 36px;
+}
+</style>
 </html>

@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body style="background-color:pink;">
+<body style="background-color: lightblue;">
   <div class="header">
   	<h2>Login to Monsters University</h2>
   </div>

@@ -5,7 +5,7 @@
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="background-color:pink;">
+<body style="background-color:lightblue;">
   <div class="header">
   	<h2>Sign Up to Monsters University</h2>
   </div>
